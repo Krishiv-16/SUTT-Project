@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR SECTION */
+
+#main{
+    background-color: #d2e823;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1400px;
+    align-items: center;
+    background-color: white;
+    margin-left: 70px;
+    position: sticky;
+    top: 50px; /* Leaves a 20px gap between the navbar and the top of the screen */
+    z-index: 1000;
+    border: none;
+    border-radius: 9999px;
+    box-shadow:  -1px 1px 100px #1e23307d;
+}
+
+.nav-logo{
+    height: 70px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.logo{
+    height: 70px;
+    width: 150px;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+.nav-links ul{
+    list-style: none;
+    display: flex;
+    margin-left: -250px;
+    margin-top: 5px;
+}
+
+.links{
+    font-size: 16px;
+    color: #1e2330;
+    margin-right: 40px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.links:hover{
+    cursor: pointer;
+}
+
+.nav-buttons{
+    margin-right: 10px;
+}
+
+.button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: #1e2330;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border: none;
+
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+#login{
+    border-radius: 15px;
+    margin-right: 12px;
+    height: 65px;
+    width: 100px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: background-color 0.25s ease-in-out;
+}
+
+#login:hover{
+    background-color: #eff0ecde
+}
+
+#signup{
+    border-radius: 9999px;
+    height: 70px;
+    width: 170px;
+    font-weight: 800;
+    color: white;
+    background-color: #1e2330;
+    transition: background-color 0.25s ease-in-out;
+    letter-spacing: 1.5px;
+}
+
+#signup:hover{
+    background-color: #262d3e;
+}
+
+
+/*HEADING*/
+.heading{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+.head{
+    font-size: 100px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    letter-spacing: -5px;
+    color: #254F1A;
+    margin-bottom: -20px;
+}
+
+.text{
+    margin-top: 20px;
+}
+
+.head2{
+    font-size: 18.8px; 
+    color: #254F1A; 
+    margin-bottom: 10px; 
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#main input{
+    border: none;
+    border-radius: 10px;
+    padding: 0px 16px;
+    width: 293.6px;
+    height: 60px;
+    margin-top: 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: #a7988c;
+}
+
+#main input::placeholder{
+    font-size: 20px;
+}
+
+#main input:focus{
+    outline: none;
+}
+
+/*HEADING BUTTON*/
+#started{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border: none;
+    border-radius: 9999px;
+    height: 60px;
+    width: 300px;
+    background-color: #254F1A;
+    color: #F3F3F1;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#started:hover{
+    transform: translatey(-1px);
+    cursor: pointer;
+}
+
+
+/*SECTION 2*/
+#section2{
+    height: 100vh;
+    width: 100%;
+    background-color: #2665D6;
+    display: flex;
+    align-items: center;
+}
+
+.transparent-video{
+    background: transparent;
+    display: block;       
+    max-width: 100%;      
+    pointer-events: none;
+    height: 610.3px;
+    width: 659.10px;
+    margin-left: 50px;
+}
+
+.Section2_Heading{
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -5px;
+    color: #D2E823;
+    width: 80%;
+    line-height: 76px;
+}
+
+.Section2_content{
+    width: 80%;
+    font-size: 18.8px; 
+    color: #FFFF; 
+    margin-bottom: 10px; 
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+/*SECTION 3*/
+#section3{
+    height: 100vh;
+    width: 100%;
+    background-color: #780016;
+    display: flex;
+    align-items: center;
+}
+
+.Section3_Heading{
+    margin-left: 84px;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -5px;
+    color: #e9c0e9;
+    width: 85%;
+    line-height: 76px;
+}
+
+.Section3_content{
+    margin-left: 84px;
+    width: 80%;
+    font-size: 18.8px; 
+    color: #FFFF; 
+    margin-bottom: 10px; 
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+/*Section 4*/
+
+#section4{
+    height: 100vh;
+    width: 100%;
+    background-color: #E8EFD6;
+    display: flex;
+    align-items: center;
+}
+
+.section4_image{
+    height: 90%;
+    width: 50%;
+    margin-left: 80px;
+}
+
+.content_section4{
+    margin-left: 64px;
+}
+
+.Section4_Heading{
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: -5px;
+    color: #1E2330;
+    width: 85%;
+    line-height: 76px;
+}
+
+.Section4_content{
+    width: 80%;
+    font-size: 18.8px; 
+    color: #1E2330;
+    margin-bottom: 10px; 
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 30px;
+    line-height: 30px;
+}
